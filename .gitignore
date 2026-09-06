@@ -1,1 +1,11 @@
-a.out
+# Ignore compiled executables
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore visual studio / build files if you use an IDE
+.vscode/
+.vs/
+out/
+build/
