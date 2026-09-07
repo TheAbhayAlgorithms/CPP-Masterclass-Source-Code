@@ -1,11 +1,26 @@
-# Ignore absolutely everything
-*
+# Compiled object files
+*.o
+*.obj
 
-# Allow Git to look inside folders
-!*/
+# Executables
+*.exe
+*.out
+*.app
 
-# Allow Git to track this ignore file
-!.gitignore
+# Build directories
+build/
+bin/
+out/
+Debug/
+Release/
 
-# Whitelist ONLY .cpp files
-!*.cpp
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
