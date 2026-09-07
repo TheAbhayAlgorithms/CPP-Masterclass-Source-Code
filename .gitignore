@@ -1,4 +1,11 @@
-*.exe
-*.out
-*.o
-*.obj
+# Ignore everything by default
+*
+
+# Do not ignore directories (needed so Git can search inside them)
+!*/
+
+# Allow your .gitignore file to be tracked
+!.gitignore
+
+# ONLY allow files with the .cpp extension
+!*.cpp
