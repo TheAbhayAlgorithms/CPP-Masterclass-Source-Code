@@ -1,11 +1,11 @@
-# Ignore everything by default
+# Ignore absolutely everything
 *
 
-# Do not ignore directories (needed so Git can search inside them)
+# Allow Git to look inside folders
 !*/
 
-# Allow your .gitignore file to be tracked
+# Allow Git to track this ignore file
 !.gitignore
 
-# ONLY allow files with the .cpp extension
+# Whitelist ONLY .cpp files
 !*.cpp
